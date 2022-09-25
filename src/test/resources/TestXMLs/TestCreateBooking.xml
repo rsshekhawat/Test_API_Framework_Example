@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Create Booking">
+    <test name="Create Booking">
+        <parameter name="firstname" value="FirstName"/>
+        <parameter name="lastname" value="LastName"/>
+        <parameter name="totalPrice" value="120"/>
+        <parameter name="depositPaid" value="true"/>
+        <parameter name="additionalNeeds" value="Breakfast"/>
+        <parameter name="checkIn" value="2018-01-01"/>
+        <parameter name="checkOut" value="2019-01-01"/>
+        <classes>
+            <class name="io.github.rsshekhawat.tests.TestCreateBooking"/>
+        </classes>
+    </test>
+
+</suite>
